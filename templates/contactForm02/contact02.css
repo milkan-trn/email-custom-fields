@@ -1,0 +1,244 @@
+
+.main_contact_form {
+	margin-top: 12%;
+	margin-bottom: 25%;
+}
+
+
+
+
+.main_contact_form form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+}
+
+
+.main_contact_form .col-50,
+.main_contact_form .col-100 {
+	position: relative;
+	margin: 10px 0 20px;
+	padding-left: 20px;
+}
+
+
+
+.main_contact_form .col-50 {
+	width: 50%;
+}
+
+
+.main_contact_form .col-100 {
+	width: 100%;
+}
+
+
+
+.main_contact_form label {
+	position: absolute;
+	left: 15px;
+    top: 52%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-weight: normal;
+    transition: top 0.2s;
+    font-family: 'AvenirLTStd-Light';
+    color: #8c8b8c;
+    font-size: 1.2vw;
+    z-index: 5;
+    padding-left: 15px;
+}
+
+.main_contact_form .text_label label {
+	top: 23%;
+} 
+
+.main_contact_form input,
+.main_contact_form textarea {
+    border: none;
+    border-bottom: 1px solid #243548;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2vw;
+    font-family: 'AvenirLTStd-Light';
+}
+
+.main_contact_form textarea {
+    border: none;
+    border-bottom: 1px solid #243548;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2vw;
+    font-family: 'AvenirLTStd-Light';
+    height: 8vw;
+}
+
+
+.main_contact_form input:focus + label,
+.main_contact_form input.has_value + label,
+.main_contact_form textarea:focus + label,
+.main_contact_form textarea.has_value + label {
+    padding-left: 3px;
+    top: 0px;
+    font-size: 0.7vw;
+}
+
+.main_contact_form textarea:focus + label,
+.main_contact_form textarea.has_value + label {
+    top: 0px;
+}
+.main_contact_form input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+
+
+.main_contact_form select {
+	border:  none;
+    border-bottom: 1px solid #243548;
+    background: url(../images/select-arrow.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: #8c8b8c;
+    font-size: 1.19vw;
+    padding: 15px;
+    font-family: 'AvenirLTStd-Light';
+    background-position: center right 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    background-size: 20px;
+    
+}
+
+
+.form_submit {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+    margin-top: 3%;
+}
+
+
+
+.form_submit #myfile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+#myfile,
+.file__input--file {
+  border: none !important;
+  visibility: hidden;
+}
+
+
+.contact_file {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.form_submit #myfile::before,
+.file__input--file::before {
+    content: 'Attach Document';
+    display: inline-block;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9vw;
+    color: #476FC6;
+    font-family: 'Avenir-Medium-09';
+    visibility: visible;
+}
+
+
+.form_submit .contact_file::before,
+#file__input::before {
+    content: '\2630';
+    font-family: "font awesome 5 pro";
+    font-weight: 500;
+    color: #476FC6;
+    padding-left: 0;
+    font-size: 0.8vw;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.form_submit .form_submit_btn {
+	background: #1d4b98;
+    border: none;
+    width: 28vw;
+    border-radius: 1.7vw;
+    color: #FECA34;
+    font-size: 0.93vw;
+    height: 3.38vw;
+    line-height: 3.38vw;
+    cursor: pointer;
+    font-family: 'Avenir-Medium-09';
+}
+
+.form_submit .form_submit_btn:hover {
+	background: #4D267A;
+}
+.main_contact_form .mediaotg_modal {
+    position: relative;
+    bottom: 95px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    background: #fcfaf8;
+    height: 100px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dnd-upload-status .dnd-upload-details {
+    padding-left: 0 !important;
+}
+
+.file__value  {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.file__value--remove {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.dnd-upload-status .dnd-upload-details .remove-file span:after,
+.file__value--remove:after {
+    content: '\f00d' !important;
+    font-family: "font awesome 5 pro";
+    font-weight: 300;
+    background-image: none !important;
+}
+
+
+.main_contact_form .mediaotg_modal {
+    position: relative;
+    bottom: 95px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    background: #fcfaf8;
+    height: 100px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

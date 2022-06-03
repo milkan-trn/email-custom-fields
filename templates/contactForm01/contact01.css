@@ -1,0 +1,1846 @@
+ /* Contact */
+
+    .contact {
+        padding-top: 4.7%;
+        background: #F5F2ED;
+      }
+      
+      .contact .c-left,
+      .contact .c-right {
+        width: 50%;
+      }
+      
+      .contact .c-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -200px 0px;
+      }
+      
+      .contact .c-right .c-right-wrap {
+        padding: 115px 154px;
+      }
+      
+      .contact .c-right h1 {
+        color: #D53D3D;
+        font: normal normal bold 2.864vw/4.270vw Fraunces_144pt_Soft-Bold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+      }
+      
+      .contact .c-right p {
+        color: #523F20;
+        font: normal normal normal 0.9375vw/1.4583vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+        width: 84%;
+      }
+      
+      .contact .c-right ul {
+          padding: 6% 0 7.3%;
+      }
+      
+      .contact .c-right ul li span {
+        display: block;
+        color: #564325;
+        text-transform: uppercase;
+        font: normal normal bold 0.729vw/1.354vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right ul li {
+          padding-right: 8.7%;
+      }
+      
+      .contact .c-right ul li:last-child {
+          padding-right: 0;
+      }
+      
+      .contact .c-right ul li a {
+        color: #584628;
+        font: normal normal normal 0.937vw/1.354vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      .contact .c-right textarea {
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      #gform_fields_5 {
+          grid-row-gap: 13px;
+      }
+      
+      .contact .c-right #gform_submit_button_5 {
+        min-width: 8.802vw;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      .contact .c-right .gform_footer {
+        padding-bottom: 0 !important;
+      }
+      
+      .contact .c-right select {
+        height: 55px;
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          background-position: center right 15px;
+          -moz-appearance:none; /* Firefox */
+          -webkit-appearance:none; /* Safari and Chrome */
+          appearance:none;
+      }
+      
+      .contact .c-right input::-webkit-input-placeholder,
+      .contact .c-right textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input::-moz-placeholder,
+      .contact .c-right textarea::-moz-placeholder { /* Firefox 19+ */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input:-ms-input-placeholder,
+      .contact .c-right textarea:-ms-input-placeholder  { /* IE 10+ */
+          color: #5C4F3D; 
+          opacity: 0.5;
+      }
+      .contact .c-right input:-moz-placeholder,
+      .contact .c-right textarea:-moz-placeholder { /* Firefox 18- */
+        color: #523F20;
+        opacity: 0.5;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact #input_5_4 {
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          padding-left: 20px;
+        color: #a69e90;
+        background-color: #FDFDFC;
+      }
+      
+      
+      /* NEW CONTACT */
+      
+      #contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2%;
+      }
+      
+      #contact-form .c-50 {
+        width: 100%;
+        padding-left: 2%;
+        padding-top: 2%;
+      }
+      
+      #contact-form .c-100 {
+        width: 100%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      
+      #contact-form input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        -webkit-appearance: none;
+        width: 100%;
+      }
+    
+      
+      #contact-form textarea {
+        width: 100%;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 10px !important;
+        -webkit-appearance: none;
+      }
+      #contact-form textarea  {
+	    height: 166px !important;
+        font: normal normal normal 16px AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	}
+      
+      #contact-form select {
+        background-color: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url(data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center right 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        color: #a69e90 !important;
+      }
+
+      #contact-form input,
+      #contact-form select {
+          height: 50px;
+          padding: 0 10px !important;
+          font: normal normal normal 16px AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      #contact-form .c-btn {
+        width: auto !important;height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+        min-width: 160px;
+	    height: 52px;
+	    font: normal normal bold 15px AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+     
+      
+      #contact-form .c-btn:hover {
+        background-color: rgba(252, 192, 89, 0.65);
+      }
+      
+      
+      .flex-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 2%;
+        position: relative;
+      }
+      
+      
+      .custom-file-upload {
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #116333;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding: 7px 10px;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload i {
+        padding-right: 5px;
+      }
+      
+      
+      /**/
+      
+      
+      .btn_upload {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        font: normal normal normal AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        color: #116333;
+        font-size: 14px;
+        padding: 10px 15px;
+      }
+      .btn_upload .dashicons {
+        vertical-align: middle;
+        font-size: 19px;
+    }
+      
+      .btn_upload i {
+        padding-right: 5px;
+      }
+      
+      
+      .img-field {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 0 !important;
+      }
+      
+      .btn_upload input {
+        cursor: pointer;
+        height: 100%;
+        position: absolute;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0;
+        opacity: 0;
+        padding: 0 !important;
+        height: auto;
+      }
+      
+      .it {
+        margin-left: 0;
+        height: 40px;
+        min-width: 40px;
+        object-fit: cover;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+      }
+      
+      .btn-rmv1,
+      .btn-rmv2,
+      .btn-rmv3,
+      .btn-rmv4,
+      .btn-rmv5 {
+        display: none;
+      }
+      
+      .rmv {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        display: inline-block;
+        background: rgba(255, 0, 0, 1);
+        margin: -5px -10px;
+      }
+      
+      .rmv:hover {
+        background: rgba(255, 0, 0, 0.5);
+      }
+      
+      #imag {
+        height: auto !important;
+      }
+      
+      .file-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 13vw;
+      }
+      
+      #contact-form #removeImage1 {
+        padding: 0 !important;
+        height: auto !important;
+        background: transparent !important;
+        border: none !important;
+        color: #A79E8E;
+        position: relative;
+        left: 15px;
+        font-size: 16px;
+      }
+
+ 
+
+ 
+
+@media (min-width: 768px) {  /* Contact */
+
+    .contact {
+        padding-top: 4.7%;
+        background: #F5F2ED;
+      }
+      
+      .contact .c-left,
+      .contact .c-right {
+        width: 50%;
+      }
+      
+      .contact .c-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -200px 0px;
+      }
+      
+      .contact .c-right .c-right-wrap {
+        padding: 115px 154px;
+      }
+      
+      .contact .c-right h1 {
+        color: #D53D3D;
+        font: normal normal bold 2.864vw/4.270vw Fraunces_144pt_Soft-Bold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+      }
+      
+      .contact .c-right p {
+        color: #523F20;
+        font: normal normal normal 0.9375vw/1.4583vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+        width: 84%;
+      }
+      
+      .contact .c-right ul {
+          padding: 6% 0 7.3%;
+      }
+      
+      .contact .c-right ul li span {
+        display: block;
+        color: #564325;
+        text-transform: uppercase;
+        font: normal normal bold 0.729vw/1.354vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right ul li {
+          padding-right: 8.7%;
+      }
+      
+      .contact .c-right ul li:last-child {
+          padding-right: 0;
+      }
+      
+      .contact .c-right ul li a {
+        color: #584628;
+        font: normal normal normal 0.937vw/1.354vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      .contact .c-right textarea {
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      #gform_fields_5 {
+          grid-row-gap: 13px;
+      }
+      
+      .contact .c-right #gform_submit_button_5 {
+        min-width: 8.802vw;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      .contact .c-right .gform_footer {
+        padding-bottom: 0 !important;
+      }
+      
+      .contact .c-right select {
+        height: 55px;
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          background-position: center right 15px;
+          -moz-appearance:none; /* Firefox */
+          -webkit-appearance:none; /* Safari and Chrome */
+          appearance:none;
+      }
+      
+      .contact .c-right input::-webkit-input-placeholder,
+      .contact .c-right textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input::-moz-placeholder,
+      .contact .c-right textarea::-moz-placeholder { /* Firefox 19+ */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input:-ms-input-placeholder,
+      .contact .c-right textarea:-ms-input-placeholder  { /* IE 10+ */
+          color: #5C4F3D; 
+          opacity: 0.5;
+      }
+      .contact .c-right input:-moz-placeholder,
+      .contact .c-right textarea:-moz-placeholder { /* Firefox 18- */
+        color: #523F20;
+        opacity: 0.5;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact #input_5_4 {
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          padding-left: 20px;
+        color: #a69e90;
+        background-color: #FDFDFC;
+      }
+      
+      
+      /* NEW CONTACT */
+      
+      #contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2%;
+      }
+      
+      #contact-form .c-50 {
+        width: 50%;
+        padding-left: 2%;
+        padding-top: 2%;
+      }
+      
+      #contact-form .c-100 {
+        width: 100%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      
+      #contact-form input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+        width: 100%;
+      }
+      
+      #contact-form textarea {
+        width: 100%;
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form select {
+        height: 55px;
+        background-color: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url(data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center right 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding-left: 20px;
+        color: #a69e90 !important;
+      }
+      
+      #contact-form .c-btn {
+        min-width: 8.802vw;
+        width: auto !important;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form .c-btn:hover {
+        background-color: rgba(252, 192, 89, 0.65);
+      }
+      
+      
+      .flex-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 2%;
+        position: relative;
+      }
+      
+      
+      .custom-file-upload {
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #116333;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding: 7px 10px;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload i {
+        padding-right: 5px;
+      }
+      
+      
+      /**/
+      
+      
+      .btn_upload {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        padding: 7px 15px;
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        color: #116333;
+      }
+      .btn_upload .dashicons {
+        vertical-align: middle;
+        font-size: 19px;
+    }
+      .btn_upload i {
+        padding-right: 5px;
+      }
+      
+      
+      .img-field {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px !important;
+      }
+      
+      .btn_upload input {
+        cursor: pointer;
+        height: 100%;
+        position: absolute;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0;
+        opacity: 0;
+        padding: 0 !important;
+        height: auto;
+      }
+      
+      .it {
+        margin-left: 0;
+        height: 40px;
+        min-width: 40px;
+        object-fit: cover;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+      }
+      
+      .btn-rmv1,
+      .btn-rmv2,
+      .btn-rmv3,
+      .btn-rmv4,
+      .btn-rmv5 {
+        display: none;
+      }
+      
+      .rmv {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        display: inline-block;
+        background: rgba(255, 0, 0, 1);
+        margin: -5px -10px;
+      }
+      
+      .rmv:hover {
+        background: rgba(255, 0, 0, 0.5);
+      }
+      
+      #imag {
+        height: auto !important;
+      }
+      
+      .file-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 5vw;
+      }
+      
+      #contact-form #removeImage1 {
+        padding: 0 !important;
+        height: auto !important;
+        background: transparent !important;
+        border: none !important;
+        color: #A79E8E;
+        position: relative;
+        left: 15px;
+        font-size: 16px;
+      }
+} 
+
+ 
+
+ 
+
+@media (min-width: 992px) {  /* Contact */
+
+    .contact {
+        padding-top: 4.7%;
+        background: #F5F2ED;
+      }
+      
+      .contact .c-left,
+      .contact .c-right {
+        width: 50%;
+      }
+      
+      .contact .c-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -200px 0px;
+      }
+      
+      .contact .c-right .c-right-wrap {
+        padding: 115px 154px;
+      }
+      
+      .contact .c-right h1 {
+        color: #D53D3D;
+        font: normal normal bold 2.864vw/4.270vw Fraunces_144pt_Soft-Bold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+      }
+      
+      .contact .c-right p {
+        color: #523F20;
+        font: normal normal normal 0.9375vw/1.4583vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+        width: 84%;
+      }
+      
+      .contact .c-right ul {
+          padding: 6% 0 7.3%;
+      }
+      
+      .contact .c-right ul li span {
+        display: block;
+        color: #564325;
+        text-transform: uppercase;
+        font: normal normal bold 0.729vw/1.354vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right ul li {
+          padding-right: 8.7%;
+      }
+      
+      .contact .c-right ul li:last-child {
+          padding-right: 0;
+      }
+      
+      .contact .c-right ul li a {
+        color: #584628;
+        font: normal normal normal 0.937vw/1.354vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      .contact .c-right textarea {
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      #gform_fields_5 {
+          grid-row-gap: 13px;
+      }
+      
+      .contact .c-right #gform_submit_button_5 {
+        min-width: 8.802vw;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      .contact .c-right .gform_footer {
+        padding-bottom: 0 !important;
+      }
+      
+      .contact .c-right select {
+        height: 55px;
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          background-position: center right 15px;
+          -moz-appearance:none; /* Firefox */
+          -webkit-appearance:none; /* Safari and Chrome */
+          appearance:none;
+      }
+      
+      .contact .c-right input::-webkit-input-placeholder,
+      .contact .c-right textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input::-moz-placeholder,
+      .contact .c-right textarea::-moz-placeholder { /* Firefox 19+ */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input:-ms-input-placeholder,
+      .contact .c-right textarea:-ms-input-placeholder  { /* IE 10+ */
+          color: #5C4F3D; 
+          opacity: 0.5;
+      }
+      .contact .c-right input:-moz-placeholder,
+      .contact .c-right textarea:-moz-placeholder { /* Firefox 18- */
+        color: #523F20;
+        opacity: 0.5;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact #input_5_4 {
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          padding-left: 20px;
+        color: #a69e90;
+        background-color: #FDFDFC;
+      }
+      
+      
+      /* NEW CONTACT */
+      
+      #contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2%;
+      }
+      
+      #contact-form .c-50 {
+        width: 50%;
+        padding-left: 2%;
+        padding-top: 2%;
+      }
+      
+      #contact-form .c-100 {
+        width: 100%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      
+      #contact-form input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+        width: 100%;
+      }
+      
+      #contact-form textarea {
+        width: 100%;
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form select {
+        height: 55px;
+        background-color: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url(data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center right 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding-left: 20px;
+        color: #a69e90 !important;
+      }
+      
+      #contact-form .c-btn {
+        min-width: 8.802vw;
+        width: auto !important;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form .c-btn:hover {
+        background-color: rgba(252, 192, 89, 0.65);
+      }
+      
+      
+      .flex-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 2%;
+        position: relative;
+      }
+      
+      
+      .custom-file-upload {
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #116333;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding: 7px 10px;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload i {
+        padding-right: 5px;
+      }
+      
+      
+      /**/
+      
+      
+      .btn_upload {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        padding: 7px 15px;
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        color: #116333;
+      }
+      .btn_upload .dashicons {
+        vertical-align: middle;
+        font-size: 19px;
+    }
+
+      .btn_upload i {
+        padding-right: 5px;
+      }
+      
+      
+      .img-field {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px !important;
+      }
+      
+      .btn_upload input {
+        cursor: pointer;
+        height: 100%;
+        position: absolute;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0;
+        opacity: 0;
+        padding: 0 !important;
+        height: auto;
+      }
+      
+      .it {
+        margin-left: 0;
+        height: 40px;
+        min-width: 40px;
+        object-fit: cover;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+      }
+      
+      .btn-rmv1,
+      .btn-rmv2,
+      .btn-rmv3,
+      .btn-rmv4,
+      .btn-rmv5 {
+        display: none;
+      }
+      
+      .rmv {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        display: inline-block;
+        background: rgba(255, 0, 0, 1);
+        margin: -5px -10px;
+      }
+      
+      .rmv:hover {
+        background: rgba(255, 0, 0, 0.5);
+      }
+      
+      #imag {
+        height: auto !important;
+      }
+      
+      .file-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 5vw;
+      }
+      
+      #contact-form #removeImage1 {
+        padding: 0 !important;
+        height: auto !important;
+        background: transparent !important;
+        border: none !important;
+        color: #A79E8E;
+        position: relative;
+        left: 15px;
+        font-size: 16px;
+      }
+ } 
+
+ 
+
+ 
+
+@media (min-width: 1200px) { 
+    /* Contact */
+
+    .contact {
+        padding-top: 4.7%;
+        background: #F5F2ED;
+      }
+      
+      .contact .c-left,
+      .contact .c-right {
+        width: 50%;
+      }
+      
+      .contact .c-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -200px 0px;
+      }
+      
+      .contact .c-right .c-right-wrap {
+        padding: 115px 154px;
+      }
+      
+      .contact .c-right h1 {
+        color: #D53D3D;
+        font: normal normal bold 2.864vw/4.270vw Fraunces_144pt_Soft-Bold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+      }
+      
+      .contact .c-right p {
+        color: #523F20;
+        font: normal normal normal 0.9375vw/1.4583vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+        width: 84%;
+      }
+      
+      .contact .c-right ul {
+          padding: 6% 0 7.3%;
+      }
+      
+      .contact .c-right ul li span {
+        display: block;
+        color: #564325;
+        text-transform: uppercase;
+        font: normal normal bold 0.729vw/1.354vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right ul li {
+          padding-right: 8.7%;
+      }
+      
+      .contact .c-right ul li:last-child {
+          padding-right: 0;
+      }
+      
+      .contact .c-right ul li a {
+        color: #584628;
+        font: normal normal normal 0.937vw/1.354vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      .contact .c-right textarea {
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      #gform_fields_5 {
+          grid-row-gap: 13px;
+      }
+      
+      .contact .c-right #gform_submit_button_5 {
+        min-width: 8.802vw;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      .contact .c-right .gform_footer {
+        padding-bottom: 0 !important;
+      }
+      
+      .contact .c-right select {
+        height: 55px;
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          background-position: center right 15px;
+          -moz-appearance:none; /* Firefox */
+          -webkit-appearance:none; /* Safari and Chrome */
+          appearance:none;
+      }
+      
+      .contact .c-right input::-webkit-input-placeholder,
+      .contact .c-right textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input::-moz-placeholder,
+      .contact .c-right textarea::-moz-placeholder { /* Firefox 19+ */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input:-ms-input-placeholder,
+      .contact .c-right textarea:-ms-input-placeholder  { /* IE 10+ */
+          color: #5C4F3D; 
+          opacity: 0.5;
+      }
+      .contact .c-right input:-moz-placeholder,
+      .contact .c-right textarea:-moz-placeholder { /* Firefox 18- */
+        color: #523F20;
+        opacity: 0.5;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact #input_5_4 {
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          padding-left: 20px;
+        color: #a69e90;
+        background-color: #FDFDFC;
+      }
+      
+      
+      /* NEW CONTACT */
+      
+      #contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2%;
+      }
+      
+      #contact-form .c-50 {
+        width: 50%;
+        padding-left: 2%;
+        padding-top: 2%;
+      }
+      
+      #contact-form .c-100 {
+        width: 100%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      
+      #contact-form input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+        width: 100%;
+      }
+      
+      #contact-form textarea {
+        width: 100%;
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form select {
+        height: 55px;
+        background-color: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url(data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center right 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding-left: 20px;
+        color: #a69e90 !important;
+      }
+      
+      #contact-form .c-btn {
+        min-width: 8.802vw;
+        width: auto !important;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form .c-btn:hover {
+        background-color: rgba(252, 192, 89, 0.65);
+      }
+      
+      
+      .flex-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 2%;
+        position: relative;
+      }
+      
+      
+      .custom-file-upload {
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #116333;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding: 7px 10px;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload i {
+        padding-right: 5px;
+      }
+      
+      
+      /**/
+      
+      
+      .btn_upload {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        padding: 7px 15px;
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        color: #116333;
+      }
+
+      .btn_upload .dashicons {
+        vertical-align: middle;
+        font-size: 19px;
+    }
+      
+      .btn_upload i {
+        padding-right: 5px;
+      }
+      
+      
+      .img-field {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px !important;
+      }
+      
+      .btn_upload input {
+        cursor: pointer;
+        height: 100%;
+        position: absolute;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0;
+        opacity: 0;
+        padding: 0 !important;
+        height: auto;
+      }
+      
+      .it {
+        margin-left: 0;
+        height: 40px;
+        min-width: 40px;
+        object-fit: cover;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+      }
+      
+      .btn-rmv1,
+      .btn-rmv2,
+      .btn-rmv3,
+      .btn-rmv4,
+      .btn-rmv5 {
+        display: none;
+      }
+      
+      .rmv {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        display: inline-block;
+        background: rgba(255, 0, 0, 1);
+        margin: -5px -10px;
+      }
+      
+      .rmv:hover {
+        background: rgba(255, 0, 0, 0.5);
+      }
+      
+      #imag {
+        height: auto !important;
+      }
+      
+      .file-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 5vw;
+      }
+      
+      #contact-form #removeImage1 {
+        padding: 0 !important;
+        height: auto !important;
+        background: transparent !important;
+        border: none !important;
+        color: #A79E8E;
+        position: relative;
+        left: 15px;
+        font-size: 16px;
+      }
+       } 
+
+ 
+
+ 
+
+@media (min-width: 1400px) { /* Contact */
+
+    .contact {
+        padding-top: 4.7%;
+        background: #F5F2ED;
+      }
+      
+      .contact .c-left,
+      .contact .c-right {
+        width: 50%;
+      }
+      
+      .contact .c-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -200px 0px;
+      }
+      
+      .contact .c-right .c-right-wrap {
+        padding: 115px 154px;
+      }
+      
+      .contact .c-right h1 {
+        color: #D53D3D;
+        font: normal normal bold 2.864vw/4.270vw Fraunces_144pt_Soft-Bold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+      }
+      
+      .contact .c-right p {
+        color: #523F20;
+        font: normal normal normal 0.9375vw/1.4583vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        margin: 0;
+        width: 84%;
+      }
+      
+      .contact .c-right ul {
+          padding: 6% 0 7.3%;
+      }
+      
+      .contact .c-right ul li span {
+        display: block;
+        color: #564325;
+        text-transform: uppercase;
+        font: normal normal bold 0.729vw/1.354vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right ul li {
+          padding-right: 8.7%;
+      }
+      
+      .contact .c-right ul li:last-child {
+          padding-right: 0;
+      }
+      
+      .contact .c-right ul li a {
+        color: #584628;
+        font: normal normal normal 0.937vw/1.354vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact .c-right input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      .contact .c-right textarea {
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+            -webkit-appearance: none;
+      }
+      
+      #gform_fields_5 {
+          grid-row-gap: 13px;
+      }
+      
+      .contact .c-right #gform_submit_button_5 {
+        min-width: 8.802vw;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      .contact .c-right .gform_footer {
+        padding-bottom: 0 !important;
+      }
+      
+      .contact .c-right select {
+        height: 55px;
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+          background-repeat: no-repeat;
+          background-color: #fff;
+          background-position: center right 15px;
+          -moz-appearance:none; /* Firefox */
+          -webkit-appearance:none; /* Safari and Chrome */
+          appearance:none;
+      }
+      
+      .contact .c-right input::-webkit-input-placeholder,
+      .contact .c-right textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input::-moz-placeholder,
+      .contact .c-right textarea::-moz-placeholder { /* Firefox 19+ */
+        color: #523F20;
+        opacity: 0.5;
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      .contact .c-right input:-ms-input-placeholder,
+      .contact .c-right textarea:-ms-input-placeholder  { /* IE 10+ */
+          color: #5C4F3D; 
+          opacity: 0.5;
+      }
+      .contact .c-right input:-moz-placeholder,
+      .contact .c-right textarea:-moz-placeholder { /* Firefox 18- */
+        color: #523F20;
+        opacity: 0.5;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      }
+      
+      .contact #input_5_4 {
+          font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+          font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+          padding-left: 20px;
+        color: #a69e90;
+        background-color: #FDFDFC;
+      }
+      
+      
+      /* NEW CONTACT */
+      
+      #contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -2%;
+      }
+      
+      #contact-form .c-50 {
+        width: 50%;
+        padding-left: 2%;
+        padding-top: 2%;
+      }
+      
+      #contact-form .c-100 {
+        width: 100%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+      
+      #contact-form input {
+        background: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        height: 55px;
+        padding: 0 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+        width: 100%;
+      }
+      
+      #contact-form textarea {
+        width: 100%;
+        height: 7.4vw !important;
+        background: #FDFDFC;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        padding: 15px 20px !important;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form select {
+        height: 55px;
+        background-color: #FDFDFC 0% 0%;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #523F20;
+        background-image: url(data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>);
+        background-repeat: no-repeat;
+        background-color: #fff;
+        background-position: center right 15px;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding-left: 20px;
+        color: #a69e90 !important;
+      }
+      
+      #contact-form .c-btn {
+        min-width: 8.802vw;
+        width: auto !important;
+        height: 3.125vw;
+        background: #FCC059;
+        border-radius: 35px;
+        color: #116333;
+        font: normal normal bold 0.833vw/1.041vw AdobeCleanBold;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+      }
+      
+      #contact-form .c-btn:hover {
+        background-color: rgba(252, 192, 89, 0.65);
+      }
+      
+      
+      .flex-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 2%;
+        position: relative;
+      }
+      
+      
+      .custom-file-upload {
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        color: #116333;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        padding: 7px 10px;
+        cursor: pointer;
+      }
+      
+      .custom-file-upload i {
+        padding-right: 5px;
+      }
+      
+      
+      /**/
+      
+      
+      .btn_upload {
+        cursor: pointer;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        padding: 7px 15px;
+        background: #E8E8E1 0% 0% no-repeat padding-box;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+        font: normal normal normal 0.937vw/1.458vw AdobeCleanRegular;
+        font-family: "Source Sans Pro","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        color: #116333;
+      }
+      .btn_upload .dashicons {
+          vertical-align: middle;
+          font-size: 19px;
+      }
+      .btn_upload i {
+        padding-right: 5px;
+      }
+      
+      
+      .img-field {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 10px !important;
+      }
+      
+      .btn_upload input {
+        cursor: pointer;
+        height: 100%;
+        position: absolute;
+        filter: alpha(opacity=1);
+        -moz-opacity: 0;
+        opacity: 0;
+        padding: 0 !important;
+        height: auto;
+      }
+      
+      .it {
+        margin-left: 0;
+        height: 40px;
+        min-width: 40px;
+        object-fit: cover;
+        border: 1px solid #BFBAB9;
+        border-radius: 5px;
+      }
+      
+      .btn-rmv1,
+      .btn-rmv2,
+      .btn-rmv3,
+      .btn-rmv4,
+      .btn-rmv5 {
+        display: none;
+      }
+      
+      .rmv {
+        cursor: pointer;
+        color: #fff;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        display: inline-block;
+        background: rgba(255, 0, 0, 1);
+        margin: -5px -10px;
+      }
+      
+      .rmv:hover {
+        background: rgba(255, 0, 0, 0.5);
+      }
+      
+      #imag {
+        height: auto !important;
+      }
+      
+      .file-img {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 5vw;
+      }
+      
+      #contact-form #removeImage1 {
+        padding: 0 !important;
+        height: auto !important;
+        background: transparent !important;
+        border: none !important;
+        color: #A79E8E;
+        position: relative;
+        left: 15px;
+        font-size: 16px;
+      }
+      } 
+
+
